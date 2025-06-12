@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { Typography, Image, Button, Alert } from 'antd';
-import type { Article } from '../../types/article'; // Pastikan path ini sesuai dengan struktur proyek Anda
+import type { Article } from '../../types/article'; 
 import Layout from '../../components/layout/Layout';
 
 const { Title, Paragraph, Text } = Typography;
