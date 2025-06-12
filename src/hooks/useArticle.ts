@@ -14,7 +14,7 @@ export const useArticle = (initialQuery: string) => {
 
    const onSearch = (value: string) => {
     if (value) {
-      setQuery(value); // onSearch tetap bertugas men-trigger pencarian API
+      setQuery(value);
     }
   };
 
